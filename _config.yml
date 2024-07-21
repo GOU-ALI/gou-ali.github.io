@@ -15,7 +15,6 @@ gh_sponsor: chrisrhymes
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 force_theme: light
-theme: bulma-clean-theme
 paginate: 5
 paginate_path: "/blog/page:num"
 
@@ -26,7 +25,6 @@ disqus:
   # shortname: my_disqus_shortname
   shortname: csrhymes
 
-
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -35,7 +33,6 @@ plugins:
   - kramdown-parser-gfm
   - jekyll-redirect-from
   - jekyll-remote-theme
-
 
 exclude: 
   - Gemfile
@@ -86,4 +83,5 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+
 remote_theme: chrisrhymes/bulma-clean-theme
